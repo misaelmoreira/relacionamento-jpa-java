@@ -7,6 +7,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+
 @Entity
 @Table(name = "produtos")
 public class Produto {
@@ -52,7 +53,5 @@ public class Produto {
 
     public void setValor(double valor) {
         this.valor = valor;
-    } 
-    
-    
+    }   
 }
